@@ -58,6 +58,7 @@ nav {
 .sub3 {
   position: relative;
 }
+
 .sub4 {
   display: none;
   position: absolute;
@@ -90,15 +91,15 @@ nav {
 }
 
 .sub4 div {
-    padding: 5px 5px 2px 5px;
+  padding: 5px 5px 2px 5px;
 }
 
-.sub1 .link1, 
+.sub1 .link1,
 .section1 a:hover {
   color: white;
 }
 
-.sub3:hover .sub4 {
+.sub3:hover.sub4 {
   display: block; 
 }
 
@@ -108,15 +109,16 @@ nav {
 
 .sub4 div:nth-child(1) {
   padding-top: 10px;
-  border-bottom: 1px solid rgb(255, 255, 255 ,0.7);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.7);
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width: 800px) {
   nav {
     padding: 0;
     margin: 0;
     border-top: 1px solid lightgray;
-  }
+ }
+
   .sub-nav {
     display: none;
   }
@@ -125,6 +127,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 50px;
   }
 
   .section1 {
@@ -139,13 +142,8 @@ nav {
   .sub-nav3 i {
     align-self: center;
     font-size: 1.5rem;
-    
   }
   
-  .sub-nav2 {
-    height: 50px;
-  }
-
   .sub-nav3 {
     width: 30%;
     display: grid;
