@@ -1,0 +1,177 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.section1,
+.sub1,
+.sub2,
+.section2,
+.sub-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 {
+  background-color: black;
+  padding: 5px;
+  width: 100%;
+  left: 0;
+  font-size: small;
+}
+
+.sub1 {
+  width: 32%;
+  padding-left: 10px;
+}
+
+.sub2 {
+  width: 15%;
+  padding-right: 10px;
+}
+
+.sub-nav2 {
+  display: none;
+}
+
+.section1 a,
+.sub5 a,
+.section2 a {
+  text-decoration: none;
+}
+
+.section1 a,
+.sub5 a {
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+.section2 a {
+  color: rgb(128, 128, 128, 0.8);
+}
+
+.sub3 {
+  position: relative;
+}
+.sub4 {
+  display: none;
+  position: absolute;
+  width: 150px;
+  background-color: black;
+}
+
+.section2 {
+  width: 50%;
+  padding: 10px 7px 10px 7px;
+  color: grey;
+}
+
+.section3 {
+  padding: 10px 5px 7px 15px;
+  border-left: 1px solid lightgray;
+  margin-right: 20px;
+}
+
+.section4 {
+  background-color: rgb(238, 238, 14);
+  width: 100%;
+  padding: 5px 0 5px 10%;
+  font-size: small;
+  margin-top: 0;
+}
+
+.section5 {
+  margin-top: 4.3rem;
+}
+
+.sub4 div {
+    padding: 5px 5px 2px 5px;
+}
+
+.sub1 .link1, 
+.section1 a:hover {
+  color: white;
+}
+
+.sub3:hover .sub4 {
+  display: block; 
+}
+
+.section2 a:hover {
+  color: #000;
+}
+
+.sub4 div:nth-child(1) {
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255 ,0.7);
+}
+
+@media screen and (max-width:800px){
+  nav {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid lightgray;
+  }
+  .sub-nav {
+    display: none;
+  }
+
+  .sub-nav2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .section1 {
+    display: none;
+  }
+  
+  .image1 img {
+    width: 120px;
+    height: 50px;
+  }
+
+  .sub-nav3 i {
+    align-self: center;
+    font-size: 1.5rem;
+    
+  }
+  
+  .sub-nav2 {
+    height: 50px;
+  }
+
+  .sub-nav3 {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    height: 50px;
+    grid-gap: 10px;
+  }
+
+  .sub-nav4 {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    height: 50px;
+  }
+
+  .sub-nav4 i {
+    padding-top: 17px;
+    padding-left: 15px;
+    font-size: 1rem;
+  }
+
+  .sub-nav3 i:nth-child(2) {
+    color: orange;
+  }
+
+  .section4 {
+    font-size: smaller;
+    padding: 5px;
+  }
+}
