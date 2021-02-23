@@ -8,7 +8,7 @@ nav {
   width: 100%;
   z-index: 2;
   background-color: white;
-  top: 2rem;
+  top: 1px;
 }
 
 .section1,
@@ -49,7 +49,8 @@ nav {
 .sub5 a,
 .section2 a,
 .section5 a,
-.section18 a {
+.section18 a,
+.sub-section2 a {
   text-decoration: none;
 }
 
@@ -246,19 +247,114 @@ nav {
   grid-gap: 20px 20px;
 }
 
+.section20 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.section21 {
+  background-color: orangered;
+  height: 40px;
+}
+
+.section22 {
+  background-color: pink;
+  height: 70px;
+}
+
+.section23 {
+  position: relative;
+}
+
+.section25 {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  left: 15px;
+  justify-content: space-around;
+}
+
+.section27 {
+  background-color: rgb(255, 192, 203, 0.2);
+  margin-top: 0;
+  border: 1px solid transparent;
+  padding-top: 0;
+}
+
+.section26 h4 {
+  padding-top: 0;
+  margin-top: 0;
+  color: white;
+}
+
+.section26 p {
+  font-weight: bold;
+  color: black;
+}
+
+.section28 {
+  border-top: 1px solid orangered;
+}
+
+.section29 {
+  padding: 7px 5px 5px 12px;
+}
+
+.section30 {
+  padding: 12px 5px 5px 12px;
+}
+
+.section29 p,
+.section30 p {
+  color: rgb(0, 0, 0, 0.8);
+  font-size: small;
+}
+
+.section24 img {
+  width: 60px;
+  height: 60px;
+}
+
 .section17 h4 {
   color: #000;
   padding-top: 0;
   margin-top: 3px;
 }
 
-.section17 p {
+.section17 p,
+.section30 span {
   color: grey;
   font-size: small;
 }
 
+.sub-section2 p,
 .section17 h4:hover {
   color: orangered;
+}
+
+.section26 p:nth-child(3) {
+  color: grey;
+}
+
+.section29 p:hover,
+.section30 p:hover {
+  color: rgb(0, 0, 0);
+}
+
+.section24 {
+  margin-right: 10px;
+}
+
+.sub-section1,
+.sub-section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-section2 {
+  width: 30%;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -301,6 +397,11 @@ nav {
     height: 50px;
   }
 
+  .sub-section1,
+  .sub-section2 {
+    display: block;
+  }
+
   .section1 {
     display: none;
   }
@@ -314,6 +415,13 @@ nav {
 
   .section15 {
     width: 95%;
+  }
+
+  .section20 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin: auto;
   }
 
   .section8 img {
@@ -365,7 +473,10 @@ nav {
   .section17 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+  }
+
+  .section18 {
+    width: 100%;
   }
 
   .inside {
@@ -408,11 +519,21 @@ nav {
     padding-bottom: 0;
   }
 
+  .section18 {
+    width: 100%;
+  }
+
   .sub-nav2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 50px;
+  }
+
+  .section20 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
   }
 
   .image1 img {
