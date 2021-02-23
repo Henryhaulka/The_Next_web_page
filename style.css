@@ -108,11 +108,12 @@ nav {
 
 .section7 {
   background:
-   linear-gradient(
-     rgba(184, 7, 36, 0.7),
-     rgba(0, 0, 0)
+   /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(184, 7, 36, 0.7),
+      rgba(0, 0, 0)
     ),
-    /*image url*/
+    /* bottom, image */
     url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-size: cover;
   position: relative;
@@ -143,7 +144,7 @@ nav {
 
 .section12 {
   background:
-    /* top, transparent red, faked with gradient */
+   /* top, transparent red, faked with gradient */
     linear-gradient(
       rgba(184, 184, 184, 0.3),
       rgba(0, 0, 0)
@@ -157,11 +158,12 @@ nav {
 
 .section13 {
   background:
-   linear-gradient(
-     rgba(184, 184, 184, 0.3),
-     rgba(0, 0, 0)
+   /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(184, 184, 184, 0.3),
+      rgba(0, 0, 0)
     ),
-    /*image url*/
+    /* bottom, image */
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png);
   background-size: cover;
   position: relative;
