@@ -107,12 +107,13 @@ nav {
 }
 
 .section7 {
-  background: linear-gradient(
+  background:
+   linear-gradient(
      rgba(184, 7, 36, 0.7),
-       rgba(0, 0, 0)
-       ),
-      /*image url*/
-      url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+     rgba(0, 0, 0)
+    ),
+    /*image url*/
+    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-size: cover;
   position: relative;
 }
@@ -141,12 +142,13 @@ nav {
 }
 
 .section12 {
-  background: linear-gradient(
-  rgba(184, 184, 184, 0.3),
-  rgba(0, 0, 0)
-  ),
-      /*image url*/
-  url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c);
+  background:
+    linear-gradient(
+     rgba(184, 184, 184, 0.3),
+     rgba(0, 0, 0)
+    ),
+    /*image url*/
+    url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c);
   background-size: cover;
   position: relative;
   height: 233px;
@@ -158,8 +160,8 @@ nav {
      rgba(184, 184, 184, 0.3),
      rgba(0, 0, 0)
     ),
-      /*image url*/
-   url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png);
+    /*image url*/
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png);
   background-size: cover;
   position: relative;
   height: 233px;
@@ -168,7 +170,7 @@ nav {
 .section14 {
   position: absolute;
   bottom: 1px;
-  padding: 8px 5px 0px 8px;
+  padding: 8px 5px 1px 8px;
 }
 
 .section15 {
@@ -264,7 +266,6 @@ nav {
     grid-template-columns: 1fr;
     grid-gap: 1px;
     margin-top: 5.9rem;
-    padding-top: 0;
     padding: 0;
   }
 
