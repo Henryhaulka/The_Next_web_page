@@ -150,14 +150,13 @@ nav {
     ),
     /* bottom, image */
     url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c);
-    background-size: cover;
-    position: relative;
-     height: 233px;
+  background-size: cover;
+  position: relative;
+  height: 233px;
 }
 
-
 .section13 {
-  background: 
+  background:
    linear-gradient(
      rgba(184, 184, 184, 0.3),
      rgba(0, 0, 0)
