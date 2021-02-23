@@ -308,7 +308,7 @@ nav {
 }
 
 .footer2,
-.footer3  {
+.footer3 {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -341,7 +341,7 @@ nav {
 }
 
 .footer6:hover {
-   color:white;
+  color: white;
 }
 
 .footer2 i {
@@ -613,7 +613,7 @@ nav {
     width: 55%;
     padding-left: 10px;
   }
-  
+
   .sub2 {
     width: 27%;
     margin-right: 10px;
@@ -721,11 +721,6 @@ nav {
     font-size: 1rem;
   }
 
-  .section14 {
-    position: absolute;
-    bottom: 1px;
-  }
-  
   .sub-nav3 {
     width: 18%;
     display: grid;
