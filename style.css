@@ -50,7 +50,8 @@ nav {
 .section2 a,
 .section5 a,
 .section18 a,
-.sub-section2 a {
+.sub-section2 a,
+.footer1 a {
   text-decoration: none;
 }
 
@@ -211,12 +212,17 @@ nav {
 }
 
 .sub1 .link1,
-.section1 a:hover {
+.section1 a:hover,
+.footer3 p:hover {
   color: white;
 }
 
 .sub3:hover.sub4 {
   display: block;
+}
+
+.footer3 p {
+  color: rgb(255, 255, 255, 0.7);
 }
 
 .section2 a:hover {
@@ -305,6 +311,69 @@ nav {
   padding: 12px 5px 5px 12px;
 }
 
+.footer1 {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer2,
+.footer3  {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer2 {
+  width: 40%;
+  padding-top: 1rem;
+}
+
+.footer3 {
+  width: 30%;
+  padding-top: 10px;
+}
+
+.footer4 {
+  background-color: black;
+}
+
+.footer5 {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.footer6 {
+  padding-top: 15px;
+  font-size: small;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.footer6:hover {
+   color:white;
+}
+
+.footer2 i {
+  color: white;
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.footer7 img {
+  width: 50px;
+  height: 40px;
+  margin-top: 3px;
+}
+
+.footer8 img {
+  width: 100px;
+  height: 20px;
+  margin-top: 13px;
+}
+
 .section29 p,
 .section30 p {
   color: rgb(0, 0, 0, 0.8);
@@ -342,6 +411,10 @@ nav {
   color: rgb(0, 0, 0);
 }
 
+.footer2 i:hover {
+  background-color: black;
+}
+
 .section24 {
   margin-right: 10px;
 }
@@ -367,6 +440,37 @@ nav {
 
   .sub-nav {
     display: none;
+  }
+
+  .footer5 {
+    width: 90%;
+    display: flex;
+    text-align: center;
+  }
+
+  .footer6 {
+    font-size: xx-small;
+  }
+
+  .footer2,
+  .footer3  {
+    width: 100%;
+  }
+  
+  .footer7 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .footer2 i {
+    padding: 5px;
+  }
+  
+  .footer8 img {
+    width: 40px;
+    height: 20px;
+    margin-top: 13px;
   }
 
   .section9 {
@@ -500,23 +604,52 @@ nav {
     top: 0;
   }
 
-  .sub-nav4 i {
-    padding-top: 20%;
-    padding-left: 25%;
-    font-size: 1rem;
-  }
-
   .section1 {
-    display: none;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .sub-nav {
-    display: none;
+  .sub1 {
+    width: 55%;
+    padding-left: 10px;
+  }
+  
+  .sub2 {
+    width: 27%;
+    margin-right: 10px;
+  }
+
+  .section2 {
+    width: 70%;
+    font-size: small;
+  }
+
+  .section6 {
+    grid-gap: 5px;
+  }
+
+  .section7 {
+    height: 300px;
   }
 
   .section10 {
-    font-size: 1rem;
-    padding-bottom: 0;
+    font-size: 1.7rem;
+    padding-bottom: 1px;
+    padding-top: 3rem;
+  }
+
+  .section12,
+  .section13 {
+    height: 145px;
+  }
+
+  .section14 {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .section15 p {
+    font-size: smaller;
   }
 
   .section18 {
@@ -524,16 +657,11 @@ nav {
   }
 
   .sub-nav2 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
+    display: none;
   }
 
   .section20 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 10px;
   }
 
   .image1 img {
@@ -542,18 +670,26 @@ nav {
   }
 
   .section11 {
-    width: 50%;
+    width: 45%;
     padding-left: 1rem;
   }
 
-  .sub-nav3 i {
-    align-self: center;
-    font-size: 1.5rem;
+  .section15 {
+    width: 100%;
+    padding-bottom: 2px;
   }
 
   .section8 img {
     width: 300px;
     height: 100px;
+  }
+
+  .footer3 {
+    width: 40%;
+  }
+
+  .footer5 {
+    width: 80%;
   }
 
   .section4 {
@@ -563,11 +699,27 @@ nav {
   }
 
   .section5 {
-    grid-template-columns: 1fr;
-    grid-gap: 1px;
-    padding-top: 7rem;
+    padding-top: 7.7rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
   }
 
+  .section9 {
+    font-size: smaller;
+    margin-top: 2rem;
+    padding: 5px;
+  }
+
+  .section14 h3 {
+    font-size: 1rem;
+  }
+
+  .section14 {
+    position: absolute;
+    bottom: 1px;
+  }
+  
   .sub-nav3 {
     width: 18%;
     display: grid;
@@ -590,10 +742,30 @@ nav {
     grid-gap: 10px;
   }
 
+  .sub-section1,
+  .sub-section2 {
+    display: block;
+  }
+
+  .sub-section1 {
+    padding-top: 2.5rem;
+  }
+
   .inside {
     display: grid;
     grid-template-columns: 0.7fr 3fr;
     grid-gap: 10px;
+  }
+
+  .section26 h4 {
+    font-size: smaller;
+  }
+
+  .section26 p,
+  .section29 p,
+  .section30 p,
+  .section30 span {
+    font-size: x-small;
   }
 
   .inside img {
