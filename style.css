@@ -203,26 +203,21 @@ nav {
   height: 170px;
 }
 
-.section5 i:nth-child(2) {
-  transform: rotate(90deg);
-}
-
 .sub4 div {
   padding: 5px 5px 2px 5px;
 }
 
-.sub1 .link1,
-.section1 a:hover,
-.footer3 p:hover {
-  color: white;
+.footer3 p {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.section26 p {
+  font-weight: bold;
+  color: black;
 }
 
 .sub3:hover.sub4 {
   display: block;
-}
-
-.footer3 p {
-  color: rgb(255, 255, 255, 0.7);
 }
 
 .section2 a:hover {
@@ -292,11 +287,6 @@ nav {
   padding-top: 0;
   margin-top: 0;
   color: white;
-}
-
-.section26 p {
-  font-weight: bold;
-  color: black;
 }
 
 .section28 {
@@ -402,6 +392,16 @@ nav {
   color: orangered;
 }
 
+.sub1 .link1,
+.section1 a:hover,
+.footer3 p:hover {
+  color: white;
+}
+
+.section5 i:nth-child(2) {
+  transform: rotate(90deg);
+}
+
 .section26 p:nth-child(3) {
   color: grey;
 }
@@ -453,10 +453,10 @@ nav {
   }
 
   .footer2,
-  .footer3  {
+  .footer3 {
     width: 100%;
   }
-  
+
   .footer7 img {
     width: 20px;
     height: 20px;
@@ -466,7 +466,7 @@ nav {
   .footer2 i {
     padding: 5px;
   }
-  
+
   .footer8 img {
     width: 40px;
     height: 20px;
@@ -646,6 +646,8 @@ nav {
   .section14 {
     width: 90%;
     justify-content: space-around;
+    position: absolute;
+    bottom: 1px;
   }
 
   .section15 p {
@@ -686,6 +688,10 @@ nav {
 
   .footer3 {
     width: 40%;
+  }
+
+  .footer2 {
+    width: 60%;
   }
 
   .footer5 {
