@@ -205,8 +205,8 @@ nav {
 }
 
 .inside span {
-  -webkit-text-decoration-line: line-through; /* Safari */
-  text-decoration-line: line-through; 
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
 }
 
 .sub4 div {
