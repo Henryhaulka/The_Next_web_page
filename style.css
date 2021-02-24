@@ -212,23 +212,67 @@ nav {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.hard-fork2 p { 
+  font-size: 14px;
+  color:white;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+.hard-fork2 h4 {
+  font-size: 19px;
+  color: white;
+  padding-top: 1px;
+  margin-top: 1px;
+}
+ 
+.hard-fork2 span{
+  color: white;
+  font-size: 10px;
+}
 .hard-fork2 {
+  padding: 8px;
   position: absolute;
   bottom: 3px;
 }
 
 .latest {
+  padding-left: 10px;
+  background-color: #fff2f5;
   display: grid;
   grid-template-columns: 3fr 1.5fr;
 }
 
+.latest h5{
+font-size:14px;
+color: orangered;
+margin-top: 1px;}
+.latest p{
+  margin-bottom: 1px;
+  font-size: 10px;
+  color: orangered;
+}
+
 .latest-list li {
+  
+  color: rgb(78, 78, 78);
+  font-size: 13px;
 padding: 10px 2px 10px 7px;
 border-bottom: 1px solid lightgray;
 }
 
 .latest-list ul {
+  list-style: none;
   padding-left: 10px;
+}
+
+.latest-list ul li::before{
+  content:  "\2022";
+  color:orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left:  -1em;
 }
 
 .latest-list {
@@ -297,7 +341,8 @@ border-bottom: 1px solid lightgray;
   padding-top: 2rem;
 }
 
-.section18 h3 {
+.section18 h3, 
+.blue-section h3 {
   color: orangered;
   font-size: 1.8rem;
   font-weight: bolder;
