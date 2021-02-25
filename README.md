@@ -35,6 +35,12 @@ This page is a clone of The Next Web page. In this project I applied float,
 - Twitter: [@ONUHENRY12](https://twitter.com/ONUHENRY12)
 - Linkedin: [Henry Onu](https://www.linkedin.com/in/henry-onu-9a15b11b6/)
 
+
+👤 Author Stephanie Sakuhuni
+- GitHub: @stephanie041996
+- LinkedIn: [linkedin](https://www.linkedin.com/in/stephanie-sakuhuni-a81029140/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
