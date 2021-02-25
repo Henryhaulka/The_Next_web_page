@@ -146,7 +146,7 @@ nav {
 
 .section11 {
   color: grey;
-  width: 25%;
+  width: 30%;
   padding-left: 2rem;
 }
 
@@ -186,7 +186,6 @@ nav {
 
 .section15 {
   color: grey;
-  width: 65%;
   padding: 0;
   margin: 0;
 }
@@ -231,6 +230,7 @@ nav {
   color: white;
   font-size: 10px;
 }
+
 .hard-fork2 {
   padding: 8px;
   position: absolute;
@@ -244,22 +244,23 @@ nav {
   grid-template-columns: 3fr 1.5fr;
 }
 
-.latest h5{
-font-size:14px;
+.latest h5 {
+font-size: 14px;
 color: orangered;
-margin-top: 1px;}
+margin-top: 1px;
+}
+
 .latest p{
-  margin-bottom: 1px;
+  margin-bottom: 3px;
   font-size: 10px;
   color: orangered;
 }
 
 .latest-list li {
-  
   color: rgb(78, 78, 78);
   font-size: 13px;
-padding: 10px 2px 10px 7px;
-border-bottom: 1px solid lightgray;
+  padding: 10px 2px 10px 7px;
+  border-bottom: 1px solid lightgray;
 }
 
 .latest-list ul {
@@ -281,11 +282,10 @@ border-bottom: 1px solid lightgray;
   margin: 0;
 }
 
-
 .latest-image img {
   width: 100%;
   height: 100%;
-  padding-top: 10px;
+  padding: 5px;
 }
 
 .section14 h3 {
@@ -325,6 +325,10 @@ border-bottom: 1px solid lightgray;
 
 .sub3:hover.sub4 {
   display: block;
+}
+
+.latest-list li:hover {
+  color: #000;
 }
 
 .section2 a:hover {
@@ -563,6 +567,15 @@ border-bottom: 1px solid lightgray;
     justify-content: start;
   }
 
+  .hard-fork {
+    width: 100%;
+  }
+
+  .blue-section {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
   .footer6 p {
     font-size: xx-small;
     text-align: center;
@@ -612,7 +625,7 @@ border-bottom: 1px solid lightgray;
   }
 
   .section11 {
-    width: 70%;
+    width: 80%;
     padding-left: 1rem;
   }
 
@@ -644,7 +657,7 @@ border-bottom: 1px solid lightgray;
   }
 
   .section15 {
-    width: 95%;
+    width: 80%;
   }
 
   .section20 {
@@ -672,6 +685,7 @@ border-bottom: 1px solid lightgray;
   .sub-nav3 i {
     align-self: center;
     font-size: 1.5rem;
+    justify-self: center;
   }
 
   .sub-nav3 {
@@ -680,7 +694,7 @@ border-bottom: 1px solid lightgray;
     grid-template-columns: 1.2fr 1fr;
     height: 50px;
     grid-gap: 5px;
-    margin-right: 25px;
+    margin-right: 10px;
   }
 
   .sub-nav4 {
@@ -698,7 +712,7 @@ border-bottom: 1px solid lightgray;
   .section4 {
     font-size: smaller;
     padding: 7px 1px 7px 5px;
-    width: 89%;
+    width: 100%;
   }
 
   .section17 {
@@ -785,6 +799,16 @@ border-bottom: 1px solid lightgray;
     width: 100%;
   }
 
+  .blue-section {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .hard-fork {
+    width: 100%;
+  }
+
   .sub-nav2 {
     display: none;
   }
@@ -800,13 +824,14 @@ border-bottom: 1px solid lightgray;
   }
 
   .section11 {
-    width: 45%;
+    width: 60%;
     padding-left: 1rem;
   }
 
   .section15 {
-    width: 100%;
+    width: 70%;
     padding-bottom: 2px;
+    font-size: x-small;
   }
 
   .section8 img {
