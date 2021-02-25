@@ -115,13 +115,12 @@ nav {
 
 .section7 {
   background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
+    /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(184, 7, 36, 0.7),
       rgba(0, 0, 0)
     ),
     /* bottom, image */
-    url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+      url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-size: cover;
   position: relative;
 }
@@ -152,13 +151,12 @@ nav {
 
 .section12 {
   background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
+    /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(184, 184, 184, 0.3),
       rgba(0, 0, 0)
     ),
     /* bottom, image */
-    url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c);
+      url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c);
   background-size: cover;
   position: relative;
   height: 233px;
@@ -166,13 +164,12 @@ nav {
 
 .section13 {
   background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
+    /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(184, 184, 184, 0.3),
       rgba(0, 0, 0)
     ),
     /* bottom, image */
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png);
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png);
   background-size: cover;
   position: relative;
   height: 233px;
@@ -192,13 +189,12 @@ nav {
 
 .hard-fork {
   background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
+    /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(184, 184, 184, 0.3),
       rgba(0, 0, 0)
     ),
     /* bottom, image */
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323.jpg);
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323.jpg);
   background-size: cover;
   position: relative;
   height: 250px;
@@ -212,9 +208,9 @@ nav {
   grid-gap: 20px 20px;
 }
 
-.hard-fork2 p { 
+.hard-fork2 p {
   font-size: 14px;
-  color:white;
+  color: white;
   padding-bottom: 1px;
   margin-bottom: 1px;
 }
@@ -225,8 +221,8 @@ nav {
   padding-top: 1px;
   margin-top: 1px;
 }
- 
-.hard-fork2 span{
+
+.hard-fork2 span {
   color: white;
   font-size: 10px;
 }
@@ -245,12 +241,12 @@ nav {
 }
 
 .latest h5 {
-font-size: 14px;
-color: orangered;
-margin-top: 1px;
+  font-size: 14px;
+  color: orangered;
+  margin-top: 1px;
 }
 
-.latest p{
+.latest p {
   margin-bottom: 3px;
   font-size: 10px;
   color: orangered;
@@ -268,13 +264,13 @@ margin-top: 1px;
   padding-left: 10px;
 }
 
-.latest-list ul li::before{
-  content:  "\2022";
-  color:orangered;
+.latest-list ul li::before {
+  content: "\2022";
+  color: orangered;
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left:  -1em;
+  margin-left: -1em;
 }
 
 .latest-list {
@@ -346,7 +342,7 @@ margin-top: 1px;
   padding-top: 2rem;
 }
 
-.section18 h3, 
+.section18 h3,
 .blue-section h3 {
   color: orangered;
   font-size: 1.8rem;
@@ -575,7 +571,7 @@ margin-top: 1px;
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-  
+
   .footer6 p {
     font-size: xx-small;
     text-align: center;
